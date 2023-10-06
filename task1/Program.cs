@@ -7,9 +7,11 @@ string[] Main(string array1)
 {
     string[] array = new string[5];
     {
+        Console.WriteLine("ВИДИТЕ ТЕКСТ");
 
         for (int i = 0; i < array.Length; i++)
         {
+
             array[i] = Console.ReadLine();
 
         }
@@ -38,6 +40,8 @@ void SecondArrayWithIF(string[] array1, string[] array2)
 }
 void PrintArray(string[] array2)
 {
+    Console.WriteLine("Второй массив ");
+
     for (int i = 0; i < array2.Length; i++)
 
     {
