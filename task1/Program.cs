@@ -19,8 +19,20 @@ string[] Main(string array1)
 }
 string[] Void(string array2)
 {
-    string[] array = new string[3];
+    string[] array = new string[5];
 
     return array;
 
+}
+void SecondArrayWithIF(string[] array1, string[] array2)
+{
+    int count = 0;
+    for (int i = 0; i < array1.Length; i++)
+    {
+        if (array1[i].Length <= 3)
+        {
+            array2[count] = array1[i];
+            count++;
+        }
+    }
 }
