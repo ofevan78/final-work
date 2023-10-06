@@ -17,3 +17,10 @@ string[] Main(string array1)
 
     return array;
 }
+string[] Void(string array2)
+{
+    string[] array = new string[3];
+
+    return array;
+
+}
